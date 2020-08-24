@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Jenkins Pipeline Sucesssss!!!!!'
+                mail bcc: '', body: 'Jenkins Pipeline Success!!!!', cc: '', from: '', replyTo: '', subject: 'Jenkins OP', to: 'bhanuprakashuchula@gmail.com'
             }
         }
     }
