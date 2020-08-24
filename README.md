@@ -1,2 +1,2 @@
 # Black-Friday 
-## EDA and Fitting a Model on Black Friday Dataset1
+## EDA and Fitting a Model on Black Friday Dataset
