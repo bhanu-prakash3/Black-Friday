@@ -1,1 +1,10 @@
-mail bcc: '', body: 'Jenkins Pipeline Success', cc: '', from: '', replyTo: '', subject: 'Jenkins OP', to: 'bhanuprakashuchula@gmail.com'
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Jenkins Pipeline Sucesssss!!!!!'
+            }
+        }
+    }
+}
